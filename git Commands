@@ -1,0 +1,30 @@
+
+1. Install git
+
+2. Configure git
+
+git config --global user.name "sudheerdv"
+git config --global user.email "sudheer2simple@gmail.com"
+
+3.Move to the folder you want  to turn into git repository
+
+git init
+
+4.Add Files to git
+
+git add .
+
+5. Commit files to git
+
+git commit -m "actiTime project added to git" 
+
+6. check for git status
+
+git status
+
+7.push an existing repsoitory from local to master
+
+git remote add origin https://github.com/sudheerdv/actiTimeFrameWork.git
+git push -u origin master
+
+(note : see you tube video in https://www.youtube.com/watch?v=K7g4D4sdBEQ)
